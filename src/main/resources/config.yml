@@ -1,0 +1,42 @@
+server:  
+  type: default  
+  applicationContextPath: / 
+  adminContextPath: /
+  maxThreads: 20480
+  minThreads: 50
+  gzip:
+    bufferSize: 32KiB
+  applicationConnectors:
+  - type: http     
+    port: 2017
+    bindHost: 127.0.0.1 # only bind to loopback
+    headerCacheSize: 512 bytes
+    outputBufferSize: 64KiB
+    maxRequestHeaderSize: 32KiB
+    maxResponseHeaderSize: 32KiB
+    inputBufferSize: 32KiB
+    idleTimeout: 30 seconds
+    minBufferPoolSize: 64 bytes
+    bufferPoolIncrement: 1KiB
+    maxBufferPoolSize: 64KiB
+    acceptorThreads: 1
+    selectorThreads: 2
+    acceptQueueSize: 1024
+    reuseAddress: true
+    soLingerTime: 345s
+    useServerHeader: false
+    useDateHeader: true
+    useForwardedHeaders: true
+  adminConnectors:
+  - type: http
+    port: 2018
+
+swagger:
+  resourcePackage: com.project.micro.resources  
+  
+twitter.user: armdev
+twitter.pass: Armen54122
+twitter.accesstoken: 91971230-8Ty6L78ijg8S54KZLm5SeYFDkbLJcwAIvB4hfWGsc
+twitter.accesstokensecret: XVHetaxjg8snLpoRr4ycgYfUwBSz2F2HKZR34CI3b0TFn
+twitter.consumersecret: oRcYOGoJclJYPLW9XkLjKEe5otpwSXQJqlNEuvxlg
+twitter.consumerkey: JNufxx4RQtG0QxYLnYZA
