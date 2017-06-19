@@ -34,9 +34,9 @@ server:
 swagger:
   resourcePackage: com.project.micro.resources  
   
-twitter.user: armdev
-twitter.pass: Armen54122
-twitter.accesstoken: 91971230-8Ty6L78ijg8S54KZLm5SeYFDkbLJcwAIvB4hfWGsc
-twitter.accesstokensecret: XVHetaxjg8snLpoRr4ycgYfUwBSz2F2HKZR34CI3b0TFn
-twitter.consumersecret: oRcYOGoJclJYPLW9XkLjKEe5otpwSXQJqlNEuvxlg
-twitter.consumerkey: JNufxx4RQtG0QxYLnYZA
+twitter.user: user
+twitter.pass: sompass
+twitter.accesstoken: 231313211c
+twitter.accesstokensecret: 212112fUwBSz2F2HKZR34CI3b0TFn
+twitter.consumersecret: 212tpwSXQJqlNEuvxlg
+twitter.consumerkey: 454646546464646ZA
